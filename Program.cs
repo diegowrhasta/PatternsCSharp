@@ -7,4 +7,9 @@ var hello =
     "Alexander Adell and Bertram Lupov were two of the faithful attendants of Multivac. As well as any human";
 list.Add(hello);
 list.Add("brother");
+var result = list
+    .OrderBy(x => x)
+    .ThenBy(x => x)
+    .ThenByDescending(x => x)
+    .Any();
 Console.WriteLine(string.Join(",", list));
