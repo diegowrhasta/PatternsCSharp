@@ -6,4 +6,5 @@ var hello =
     "into the light. The question came about as a result of a five dollar bet over highballs, and it happened this way: " +
     "Alexander Adell and Bertram Lupov were two of the faithful attendants of Multivac. As well as any human";
 list.Add(hello);
+list.Add("brother");
 Console.WriteLine(string.Join(",", list));
